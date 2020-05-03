@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="666dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/lockerRowID"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/locker_row_id"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_on_primary" />
+
+        <TextView
+            android:id="@+id/lockerRowURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/locker_row_url"
+            android:textColor="@color/design_default_color_on_primary" />
+
+        <TextView
+            android:id="@+id/lockerRowTag"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/locker_row_tag"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_on_primary" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
